@@ -6,11 +6,13 @@ import Student from './Student'
 import Child from './props/Child'
 import Parent from './props/Parent'
 
-import './props/index.css';
+// import './props/index.css';
 import ParencardComponent from './props/ParencardComponent'
+import IncrementAndDecrement from './Usestate/IncrementAndDecrement'
+import ChangeName from './Usestate/ChangeName'
 
 function App() {
-  return (
+  return (  
     <div>
     {/* <Heading />
     <Paragraph />
@@ -20,7 +22,10 @@ function App() {
     {/* ye parent he yaha se data child ko bhej re he */}
      {/* <Parent /> */}
 
-   <ParencardComponent/>
+   {/* <ParencardComponent/> */}
+   
+   {/* <IncrementAndDecrement /> */}
+   <ChangeName />
 
       
       
