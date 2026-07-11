@@ -10,6 +10,8 @@ import Parent from './props/Parent'
 import ParencardComponent from './props/ParencardComponent'
 import IncrementAndDecrement from './Usestate/IncrementAndDecrement'
 import ChangeName from './Usestate/ChangeName'
+import LiveClock from './Usestate/LiveClock'
+import DigitalClock from './Usestate/DigitalClock'
 
 function App() {
   return (  
@@ -25,8 +27,9 @@ function App() {
    {/* <ParencardComponent/> */}
    
    {/* <IncrementAndDecrement /> */}
-   <ChangeName />
-
+   {/* <ChangeName /> */}
+   {/* <LiveClock /> */}
+   <DigitalClock />
       
       
 
