@@ -15,7 +15,7 @@ function ParencardComponent() {
     <h3>List Of Top 5 Netflix series</h3>
     <Netflix />
 
-{/*     
+    
       <Cards imgsrc = {darkImage}
       title = "A Netflix Original Series"
       sname = "Dark"
@@ -53,7 +53,7 @@ function ParencardComponent() {
       sname = "Every Year After"
       link = "https://www.primevideo.com/detail/0H54EQHZIV8TEJOVYJBDCTFLF1"
      />
- */}
+
 
 
       
