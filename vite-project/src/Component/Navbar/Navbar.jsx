@@ -4,6 +4,9 @@
   import Left from '../Left';
 import Services from '../Services';
 import Work from '../Work';
+import About from '../About/About';
+import Review from '../Review';
+import Blog from '../Blog';
 
   const Navbar = () => {
     return (
@@ -13,9 +16,10 @@ import Work from '../Work';
       
       <a href='#services'>Services</a>
       <a href='#work'>Work</a>
-      <a href=''>About</a>
-      <a href=''>Review</a>
-      <a href=''>Blog</a>
+      <a href='#about'>About</a>
+      <a href='#Review'>Review</a>
+      <a href='#Blog'>Blog</a>
+      <a href=''>Contact</a>
       <button className='btn'>Hire me →</button>
       </div>
       
@@ -26,6 +30,9 @@ import Work from '../Work';
     </div>
     <Services />
    <Work />
+   <About />
+   <Review />
+   <Blog />
       
       </>
 

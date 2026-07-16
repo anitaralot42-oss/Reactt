@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
@@ -28,7 +28,7 @@
   @media (max-width: 1024px) {
     font-size: 16px;
   }
-}
+} */
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -49,11 +49,11 @@
     filter: invert(1) brightness(2);
   }
 }
-
+/* 
 body {
   margin: 0;
 
-}
+} */
 
 
 
@@ -148,13 +148,13 @@ code {
     margin:10px 0;
 }
 
-button{
+/* button{
     padding:10px 20px;
 
     background: black;
     color:white;
     cursor:pointer;
-}
+} */
 /* 
 h3{
   background: rgb(236, 230, 230);
@@ -179,28 +179,42 @@ h3{
     background: coral;
     border-radius: 20px;
     border: none;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
+    margin-left: 150px;
+
     
  }
  .nav{
 display: flex;
 align-items: center;
+position: fixed;
+background-color: white;
+top: 0;
 
  }
 
  img{
-  height: 300px;
-  width: 300px;
+  height: 350px;
+  width: 350px;
+
+  
+  
  }
 
  .left{
   display: flex;
   padding: 100px;
+
  }
 
 
  .lside{
   padding-right: 300px;
+  font-size: x-large;
+width: 100%;
+
+  
+  
 
  }
 
@@ -224,9 +238,12 @@ align-items: center;
  font-size: 30px;
 
  }
+
  #card{
   display: flex;
   padding: 100px;
+ 
+
  }
  .p1{
   display: flex;
@@ -236,5 +253,124 @@ align-items: center;
  
 
  }
+
+ #card1{
+padding: 30px;
+margin: 20px;
+border-radius: 1rem;
+border: 2px solid white;
+
+ }
+ #card1:hover{
+
+  border: 1px solid coral;
+  border-radius: 2rem;
+  transform: scale(1.05);
+
+ }
  
+  #card2{
+border-radius: 1rem;
+padding: 30px;
+margin: 20px;
+background-color: black;
+color: white;
+
+ }  
+
+ #card2:hover{
+
+  border: 1px solid coral;
+  border-radius: 1rem;
+   transform: scale(1.05);
+
+ }
+
+  #card3{
+border: 1px solid black;
+border-radius: 1rem;
+padding: 30px;
+margin: 20px;
+transform: scale(1.05);
+
+ }
+ #card3:hover{
+
+  border: 1px solid coral;
+  border-radius: 1rem;
+
+
+ }
+
+ .A{
+  color: black;
+  background-color: rgb(248, 235, 235);
+  border-radius: 1rem;
+  padding: 7px;
+  margin: 5px;
+  border: none;
+
+
+ }
+ .A:hover{
+  border: 1px solid coral;
+ }
+
+ #about{
+  display: flex;
+  margin: 100px;
+ }
  
+
+ .review{
+  display: flex;
+  margin: 20px;
+
+ }
+ #rcard1{
+ border-radius: 1rem;
+padding: 30px;
+margin: 20px;
+
+ }
+
+ #rcard1:hover{
+
+  border: 1px solid coral;
+  border-radius: 2rem;
+  transform: scale(1.05);
+
+ }
+
+  #rcard2{
+ border-radius: 1rem;
+padding: 30px;
+margin: 20px;
+background: black;
+color: white;
+
+
+ }
+ #rcard2:hover{
+
+  border: 1px solid coral;
+  border-radius: 2rem;
+  transform: scale(1.05);
+
+ }
+
+#rcard3{
+ border-radius: 1rem;
+padding: 30px;
+margin: 20px;
+
+ }
+ #rcard3:hover{
+
+  border: 1px solid coral;
+  border-radius: 2rem;
+  transform: scale(1.05);
+
+ }
+ 
+
