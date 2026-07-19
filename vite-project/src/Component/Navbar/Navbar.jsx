@@ -3,10 +3,14 @@
   import Image  from '../../Image/Image';
   import Left from '../Left';
 import Services from '../Services';
-import Work from '../Work';
 import About from '../About/About';
 import Review from '../Review';
 import Blog from '../Blog';
+import Contact from '../Contact/Contact';
+import Work from '../work/Work';
+
+
+
 
   const Navbar = () => {
     return (
@@ -29,11 +33,14 @@ import Blog from '../Blog';
 
     </div>
     <Services />
-   <Work />
+    <Work />
+  
+  
    <About />
+
    <Review />
    <Blog />
-      
+   <Contact />
       </>
 
     )

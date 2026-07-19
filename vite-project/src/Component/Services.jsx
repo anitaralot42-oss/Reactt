@@ -9,6 +9,7 @@ const Services = (props) => {
     <p className='p1 ' style={{color:'coral'}}>What I do</p><br></br>
     <h1 className='p1'>Services</h1>
     <div id='card'>
+    
     <Scard 
      id = "card1"
       title = "UI/UX Design"

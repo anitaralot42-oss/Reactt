@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Bcard = (props) => {
+const Bcard = ({ title, p }) => {
   return (
-    <div>
-    <h5>{props.title}</h5>
-    <p>{props.p}</p>     
-
+    <div className="card-content">
+      <h3>{title}</h3>
+      <p>{p}</p>
+      <button>Read More →</button>
     </div>
   )
 }
