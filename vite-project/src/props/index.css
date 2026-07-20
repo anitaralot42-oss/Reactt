@@ -9,6 +9,7 @@
   --accent-border: rgba(170, 59, 255, 0.5);
   --social-bg: rgba(244, 243, 236, 0.5);
   --shadow:
+
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
@@ -94,9 +95,6 @@ h2 {
     font-size: 20px;
   }
 }
-/* p {
-  margin: 0;
-} */
 
 code,
 .counter {
@@ -220,14 +218,14 @@ top: 0;
   
  }
 
- .left{
+ /* .left{
   display: flex;
   padding: 100px;
 
- }
+ } */
 
 
- .lside{
+ /* .lside{
   padding-right: 300px;
   font-size: x-large;
 width: 100%;
@@ -235,7 +233,21 @@ width: 100%;
   
   
 
- }
+ } */
+  .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;   /* 👈 Image aur text ke beech ka space */
+  padding: 100px;
+}
+
+.lside {
+  max-width: 500px;
+  font-size: x-large;
+}
+
+
 
 
  .b1{
@@ -335,11 +347,6 @@ transform: scale(1.05);
   border: 1px solid coral;
  }
 
- #about{
-  display: flex;
-  margin: 100px;
- }
- 
 
  #Blog{
     padding:80px 8%;
@@ -633,6 +640,7 @@ transform: scale(1.05);
     box-shadow:0 4px 15px rgba(0,0,0,.1);
 }
 
+
 .work-content{
     padding:25px;
 }
@@ -666,3 +674,83 @@ transform: scale(1.05);
     color:black;
     font-weight:bold;
 }
+
+
+
+#about{
+    width:90%;
+    margin:100px auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:100px;
+}
+
+.about-left{
+    flex:1;
+}
+
+.about-image{
+    width:100%;
+    max-width:500px;
+    height:600px;
+    object-fit:cover;
+    border-radius:30px;
+    display:block;
+}
+
+.about-right{
+    flex:1;
+}
+
+.about-subtitle{
+    color:#ff6b35;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-size:15px;
+    margin-bottom:20px;
+}
+
+.about-title{
+    font-size:70px;
+    line-height:1.1;
+    margin-bottom:35px;
+}
+
+.about-text{
+    color:#666;
+    font-size:21px;
+    line-height:1.8;
+    margin-bottom:25px;
+}
+
+.stack{
+    margin-top:40px;
+    margin-bottom:20px;
+    color:#555;
+    letter-spacing:2px;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.skills span{
+    border:1px solid #ddd;
+    padding:12px 22px;
+    border-radius:30px;
+    font-size:16px;
+    transition:.3s;
+    cursor:pointer;
+}
+
+.skills span:hover{
+    background:#ff6b35;
+    color:white;
+    border-color:#ff6b35;
+}
+
+
+
